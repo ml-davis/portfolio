@@ -1,7 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import "~@angular/material/prebuilt-themes/purple-green.css";
+
 body {
   background-color: #2b2b2b;
   padding: 2% 10%;
+}
+
+.panel {
+  background-color: seashell;
   color: #1d1d1d;
   text-shadow: 1px 1px 1px lightsteelblue;
 }
