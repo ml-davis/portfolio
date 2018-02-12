@@ -1,0 +1,74 @@
+[{
+  "id": 0,
+  "title": "Persian Tutor 2",
+  "stack": [
+    "Angular",
+    "Typescript",
+    "Java",
+    "Spring",
+    "PostgreSQL",
+    "AWS",
+    "Elastic Beanstalk",
+    "RDS",
+    "S3"
+  ],
+  "github-link": "https://github.com/ml-davis/persian_tutor_2",
+  "web-link": "http://persiantutor.io",
+  "video-link": null,
+  "image-path": null,
+  "description": [
+    "This is a web application intended to help learn Farsi. Users can browse phrases, look up phrases in search ",
+    "and be quizzed on phrases. If the user does not know the answer to a question, he can flag it as an unknown ",
+    "phrase. At the end of the quiz, the user will be shown the phrases that he got wrong. At this point he can ",
+    "choose to be quizzed again on the unknown phrases. This process repeats until the user has gone through a quiz ",
+    "with out flagging any question as unknown. I found this method to be an effective approach for myself as I have ",
+    "been learning the language."
+  ],
+  "motivation": [
+    "I began studying Farsi out of interest and to be able to better communicate with my fiance's family who have it ",
+    "as their native tongue. Due to the limited amount of resources available, I decided to store phrases in a ",
+    "database as I learned them to help me remember. Gradually growing it into a web application seemed the logical ",
+    "next step. Another very important factor that impacted my decision in building this app was to improve my skills ",
+    "as a developer. I was very interested in learning Angular, Spring, and AWS, and this seemed like a good ",
+    "introductory project for me to develop my expertise."
+  ],
+  "technical-details": [
+    "Persian Tutor 2 is a primarily an Angular app. It does also make use of a little bit ",
+    "of Java Spring and PostgreSQL to fetch and retrieve data. The Angular portion of the app is stored in an S3 ",
+    "bucket hosted on AWS and the Java Spring server is hosted on an Elastic Beanstalk instance of AWS. This allows ",
+    "these components to be completely decoupled from each other allow them to only communicate via HTTP requests. ",
+    "The PostgreSQL database is also decoupled and is stored in an AWS Relational Database Service."
+  ]
+},
+{
+  "id": 1,
+  "title": "Self Driving Car",
+  "stack": [
+    "C",
+    "C++",
+    "OpenCV",
+    "Bash",
+    "Atmega328",
+    "Beaglebone Black"
+  ],
+  "github-link": "https://github.com/ml-davis/self_driving_car",
+  "web-link": null,
+  "video-link": "https://www.youtube.com/embed/5YsZCfJTV1s",
+  "image-path": null,
+  "description": [
+    "This self-driving car was the final project of my computer science degree. It was built from scratch by just me ",
+    "and a single partner."
+  ],
+  "motivation": [
+    "There were many factors that contributed to us choosing a self-driving car for our final project. One major ",
+    "consideration was the challenge. Embedded systems was a fairly unfamiliar subject for us at the time and we ",
+    "believed it would be a fun and challenging endeavor. I also believed that it was a great way to build upon ",
+    "my fundamentals of computer science and gain a deeper insight into low-level programming. I believe that this ",
+    "can help in all areas of programming since it gives me a deeper understanding of how computers work in general. "
+  ],
+  "technical-details": [
+    "This project was built at a very low level. All of the wiring and programming was done by ourselves. A much more ",
+    "detailed description of the technical details that went into the project can be found in the pdf that we created ",
+    "for the project."
+  ]
+}]
