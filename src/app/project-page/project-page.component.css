@@ -1,0 +1,18 @@
+@media (max-width: 628px) {
+  .images {
+    margin-top: 40px;
+  }
+}
+
+img {
+  --dim: calc(17em);
+  width: var(--dim);
+  height: calc(var(--dim) - 4em);
+  margin: 5px;
+}
+
+a {
+  color: dodgerblue;
+  text-decoration: none;
+}
+

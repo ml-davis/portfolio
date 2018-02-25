@@ -4,6 +4,7 @@ interface Project {
   stack: string[];
   githubLink: string;
   webLink: string;
+  videoLink: string;
   imagePath: string;
   description: string[];
   motivation: string[];

@@ -1,7 +1,60 @@
-<h1 *ngIf="project; else noProjectFound">
-  {{project.title}}
-</h1>
+<mat-card *ngIf="project; else noProjectFound">
+
+  <mat-card-title>{{project.title}}</mat-card-title>
+  <mat-card-subtitle>{{project.stack.join(', ')}}</mat-card-subtitle>
+  <hr>
+
+  <div class="images" *ngIf="project.imagePath">
+    <img mat-card-image *ngFor="let i of [0, 1, 2]"
+         src="../../assets/project_images/{{project.imagePath}}/img{{i}}.png"
+         alt="{{project.title}} Image {{i}}">
+  </div>
+
+  <div *ngIf="project.githubLink">
+    <br>
+    <mat-card-subtitle>Github:</mat-card-subtitle>
+    <mat-card-content><a href="{{project.githubLink}}">{{project.githubLink}}</a></mat-card-content>
+  </div>
+
+  <div *ngIf="project.webLink">
+    <br>
+    <mat-card-subtitle>URL:</mat-card-subtitle>
+    <mat-card-content><a href="{{project.webLink}}">{{project.webLink}}</a></mat-card-content>
+  </div>
+
+  <div *ngIf="project.description">
+    <br>
+    <mat-card-subtitle>Description:</mat-card-subtitle>
+    <mat-card-content>{{project.description.join('')}}</mat-card-content>
+  </div>
+
+  <div *ngIf="project.motivation">
+    <br>
+    <mat-card-subtitle>Motivation:</mat-card-subtitle>
+    <mat-card-content>{{project.motivation.join('')}}</mat-card-content>
+  </div>
+
+  <div *ngIf="project.technicalDetails">
+    <br>
+    <mat-card-subtitle>Technical Details</mat-card-subtitle>
+    <mat-card-content>{{project.technicalDetails.join('')}}</mat-card-content>
+  </div>
+
+  <div *ngIf="project.videoLink">
+    <br>
+    <iframe src="https://www.youtube.com/embed/5YsZCfJTV1s"
+            frameborder="0"
+            allow="autoplay; encrypted-media"
+            allowfullscreen>
+    </iframe>
+  </div>
+
+  <br>
+  <mat-card-actions>
+    <button [routerLink]="['/']" routerLinkActive="active" mat-button>Go Back</button>
+  </mat-card-actions>
+</mat-card>
 
 <ng-template #noProjectFound>
-  <h1 style="color: white">No project found</h1>
+  <h1 style="color: white">Loading...</h1>
 </ng-template>

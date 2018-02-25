@@ -54,7 +54,7 @@
   "githubLink": "https://github.com/ml-davis/self_driving_car",
   "webLink": null,
   "videoLink": "https://www.youtube.com/embed/5YsZCfJTV1s",
-  "imagePath": null,
+  "imagePath": "self_driving_car",
   "description": [
     "This self-driving car was the final project of my computer science degree. It was built from scratch by just me ",
     "and a single partner."
