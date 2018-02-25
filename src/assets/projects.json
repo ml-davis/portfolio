@@ -12,10 +12,10 @@
     "RDS",
     "S3"
   ],
-  "github-link": "https://github.com/ml-davis/persian_tutor_2",
-  "web-link": "http://persiantutor.io",
-  "video-link": null,
-  "image-path": null,
+  "githubLink": "https://github.com/ml-davis/persian_tutor_2",
+  "webLink": "http://persiantutor.io",
+  "videoLink": null,
+  "imagePath": null,
   "description": [
     "This is a web application intended to help learn Farsi. Users can browse phrases, look up phrases in search ",
     "and be quizzed on phrases. If the user does not know the answer to a question, he can flag it as an unknown ",
@@ -32,7 +32,7 @@
     "as a developer. I was very interested in learning Angular, Spring, and AWS, and this seemed like a good ",
     "introductory project for me to develop my expertise."
   ],
-  "technical-details": [
+  "technicalDetails": [
     "Persian Tutor 2 is a primarily an Angular app. It does also make use of a little bit ",
     "of Java Spring and PostgreSQL to fetch and retrieve data. The Angular portion of the app is stored in an S3 ",
     "bucket hosted on AWS and the Java Spring server is hosted on an Elastic Beanstalk instance of AWS. This allows ",
@@ -51,10 +51,10 @@
     "Atmega328",
     "Beaglebone Black"
   ],
-  "github-link": "https://github.com/ml-davis/self_driving_car",
-  "web-link": null,
-  "video-link": "https://www.youtube.com/embed/5YsZCfJTV1s",
-  "image-path": null,
+  "githubLink": "https://github.com/ml-davis/self_driving_car",
+  "webLink": null,
+  "videoLink": "https://www.youtube.com/embed/5YsZCfJTV1s",
+  "imagePath": null,
   "description": [
     "This self-driving car was the final project of my computer science degree. It was built from scratch by just me ",
     "and a single partner."
@@ -66,7 +66,7 @@
     "my fundamentals of computer science and gain a deeper insight into low-level programming. I believe that this ",
     "can help in all areas of programming since it gives me a deeper understanding of how computers work in general. "
   ],
-  "technical-details": [
+  "technicalDetails": [
     "This project was built at a very low level. All of the wiring and programming was done by ourselves. A much more ",
     "detailed description of the technical details that went into the project can be found in the pdf that we created ",
     "for the project."

@@ -1,0 +1,7 @@
+<h1 *ngIf="project; else noProjectFound">
+  {{project.title}}
+</h1>
+
+<ng-template #noProjectFound>
+  <h1 style="color: white">No project found</h1>
+</ng-template>

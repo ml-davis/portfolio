@@ -9,6 +9,18 @@ import { AboutMeComponent } from './about-me/about-me.component';
 import { WorkHistoryComponent } from './work-history/work-history.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { PersonalProjectsComponent } from './personal-projects/personal-projects.component';
+import { HttpClientModule } from '@angular/common/http';
+import { RouterModule, Routes } from '@angular/router';
+import { ProjectPageComponent } from './project-page/project-page.component';
+import { MainPageComponent } from './main-page/main-page.component';
+import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { ProjectsService } from './projects.service';
+
+const appRoutes: Routes = [
+  { path: 'project/:id', component: ProjectPageComponent },
+  { path: '',            component: MainPageComponent },
+  { path: '**',          component: PageNotFoundComponent },
+];
 
 @NgModule({
   declarations: [
@@ -17,17 +29,24 @@ import { PersonalProjectsComponent } from './personal-projects/personal-projects
     AboutMeComponent,
     WorkHistoryComponent,
     NavbarComponent,
-    PersonalProjectsComponent
+    PersonalProjectsComponent,
+    ProjectPageComponent,
+    MainPageComponent,
+    PageNotFoundComponent
   ],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
+    HttpClientModule,
     MatMenuModule,
     MatButtonModule,
     MatCardModule,
-    MatTabsModule
+    MatTabsModule,
+    RouterModule.forRoot(
+      appRoutes
+    )
   ],
-  providers: [],
+  providers: [ProjectsService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
