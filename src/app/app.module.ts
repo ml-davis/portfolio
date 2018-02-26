@@ -15,6 +15,7 @@ import { ProjectPageComponent } from './project-page/project-page.component';
 import { MainPageComponent } from './main-page/main-page.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { ProjectsService } from './projects.service';
+import { SafePipe } from './safe.pipe';
 
 const appRoutes: Routes = [
   { path: 'project/:id', component: ProjectPageComponent },
@@ -32,7 +33,8 @@ const appRoutes: Routes = [
     PersonalProjectsComponent,
     ProjectPageComponent,
     MainPageComponent,
-    PageNotFoundComponent
+    PageNotFoundComponent,
+    SafePipe
   ],
   imports: [
     BrowserModule,

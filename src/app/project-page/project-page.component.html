@@ -42,9 +42,9 @@
 
   <div *ngIf="project.videoLink">
     <br>
-    <iframe src="https://www.youtube.com/embed/5YsZCfJTV1s"
+    <iframe [src]="project.videoLink | safe"
             frameborder="0"
-            allow="autoplay; encrypted-media"
+            allow="encrypted-media"
             allowfullscreen>
     </iframe>
   </div>
