@@ -39,8 +39,7 @@
     "these components to be completely decoupled from each other allow them to only communicate via HTTP requests. ",
     "The PostgreSQL database is also decoupled and is stored in an AWS Relational Database Service."
   ]
-},
-{
+}, {
   "id": 1,
   "title": "Self Driving Car",
   "stack": [
@@ -70,5 +69,113 @@
     "This project was built at a very low level. All of the wiring and programming was done by ourselves. A much more ",
     "detailed description of the technical details that went into the project can be found in the pdf that we created ",
     "for the project."
+  ]
+}, {
+  "id": 2,
+  "title": "Nanogram",
+  "stack": [
+    "Java",
+    "JavaFX",
+    "MVC"
+  ],
+  "githubLink": "https://www.youtube.com/embed/xdYiaJIy8S4",
+  "webLink": null,
+  "videoLink": "https://www.youtube.com/embed/xdYiaJIy8S4",
+  "imagePath": "nanogram",
+  "description": [
+    "todo"
+  ],
+  "motivation": [
+    "todo"
+  ],
+  "technicalDetails": [
+    "todo"
+  ]
+}, {
+  "id": 3,
+  "title": "Search Engine",
+  "stack": [
+    "Java",
+    "JavaFX"
+  ],
+  "githubLink": "https://github.com/ml-davis/search_engine_1",
+  "webLink": null,
+  "videoLink": "https://www.youtube.com/embed/as0ER0kk2Wc",
+  "imagePath": "search_engine",
+  "description": [
+    "todo"
+  ],
+  "motivation": [
+    "todo"
+  ],
+  "technicalDetails": [
+    "todo"
+  ]
+}, {
+  "id": 4,
+  "title": "Online Real Estate",
+  "stack": [
+    "PHP",
+    "MySQL",
+    "JavaScript",
+    "HTML",
+    "CSS"
+  ],
+  "githubLink": "https://github.com/ml-davis/online_real_estate",
+  "webLink": null,
+  "videoLink": "https://www.youtube.com/embed/Eflp7wcNjOU",
+  "imagePath": "online_real_estate",
+  "description": [
+    "todo"
+  ],
+  "motivation": [
+    "todo"
+  ],
+  "technicalDetails": [
+    "todo"
+  ]
+}, {
+  "id": 5,
+  "title": "Persian Tutor 1",
+  "stack": [
+    "Java",
+    "JavaFX"
+  ],
+  "githubLink": "https://github.com/ml-davis/persian_tutor.git",
+  "webLink": null,
+  "videoLink": "https://www.youtube.com/embed/qrAtu14MvoA",
+  "imagePath": "persian_tutor_1",
+  "description": [
+    "todo"
+  ],
+  "motivation": [
+    "todo"
+  ],
+  "technicalDetails": [
+    "todo"
+  ]
+}, {
+  "id": 6,
+  "title": "Game of Life",
+  "stack": [
+    "C++",
+    "TBB",
+    "C",
+    "Cuda",
+    "OpenCL",
+    "OpenGL"
+  ],
+  "githubLink": "https://github.com/ml-davis/game_of_life_tbb",
+  "webLink": null,
+  "videoLink": "https://www.youtube.com/embed/5eOMqYD8FUc",
+  "imagePath": "game_of_life",
+  "description": [
+    "todo"
+  ],
+  "motivation": [
+    "todo"
+  ],
+  "technicalDetails": [
+    "todo"
   ]
 }]
