@@ -83,13 +83,17 @@
   "videoLink": "https://www.youtube.com/embed/xdYiaJIy8S4",
   "imagePath": "nanogram",
   "description": [
-    "todo"
+    "This is a desktop application of a famous puzzle game called a nanogram. Users can create and solve custom ",
+    "puzzles, as well as generate random puzzles of various sizes to solve on their own."
   ],
   "motivation": [
-    "todo"
+    "A major motivation of this project was to get more experience working with the MVC paradigm. I also thought ",
+    "that the puzzle based algorithms would be a fun exercise to improve my algorithmic thinking skills."
   ],
   "technicalDetails": [
-    "todo"
+    "This program uses Java for its backend and uses JavaFX for its frontend. All of the business logic is achieved ",
+    "in the model, which is delegated tasks from the controller. Our frontend is written in fxml, similar to html,",
+    "which is used to display the graphical user interface to the user."
   ]
 }, {
   "id": 3,
@@ -103,13 +107,18 @@
   "videoLink": "https://www.youtube.com/embed/as0ER0kk2Wc",
   "imagePath": "search_engine",
   "description": [
-    "todo"
+    "The search engine allows users to browse a large number of news articles and query them to find relevant ",
+    "articles. There are three different types of searches which can be used to find relevant information."
   ],
   "motivation": [
-    "todo"
+    "The only real motivation for this particular project was that I thought it sounded like a fun and interesting ",
+    "exercise."
   ],
   "technicalDetails": [
-    "todo"
+    "This search engine parses a large number of files and stores them in a hashmap where the key is the word and ",
+    "the value is metadata about the phrase. For example, which articles the word shows up in, how often it shows up, ",
+    "etc. This allows us to look up a phrase in constant time, rather than iterating over the whole collection of ",
+    "documents and gain useful information fast."
   ]
 }, {
   "id": 4,
@@ -126,34 +135,38 @@
   "videoLink": "https://www.youtube.com/embed/Eflp7wcNjOU",
   "imagePath": "online_real_estate",
   "description": [
-    "todo"
+    "This is a web application which allows users to browse homes for rent as well as advertise their own places. ",
+    "Users can filter their search results over specified criteria and create profiles to be used in the application."
   ],
   "motivation": [
-    "todo"
+    "This was one of my very first web applications. I created it to help teach myself about web technologies."
   ],
   "technicalDetails": [
-    "todo"
+    "This program uses PHP in the backend to insert and retrieve user data from a database created with MySQL. ",
+    "It also uses Javascript, HTML5, and CSS3 to render a nice responsive front-end."
   ]
 }, {
   "id": 5,
   "title": "Persian Tutor 1",
   "stack": [
     "Java",
-    "JavaFX"
+    "JavaFX",
+    "MVC"
   ],
   "githubLink": "https://github.com/ml-davis/persian_tutor.git",
   "webLink": null,
   "videoLink": "https://www.youtube.com/embed/qrAtu14MvoA",
   "imagePath": "persian_tutor_1",
   "description": [
-    "todo"
+    "This was the original Persian learning app. It is very similar to the second one, the main difference being ",
+    "the stack used to create it. This one was created with only Java and JavaFX, two technologies I was very ",
+    "comfortable with at the time. It was later created with Angular since it was a goal of mine to learn it."
   ],
   "motivation": [
-    "todo"
+    "I created this app before first meeting my mother-in-law. I wanted to impress her by learning some phrases ",
+    "before meeting her and being a fun programming project, I did not hesitate to build it."
   ],
-  "technicalDetails": [
-    "todo"
-  ]
+  "technicalDetails": null
 }, {
   "id": 6,
   "title": "Game of Life",
@@ -170,12 +183,19 @@
   "videoLink": "https://www.youtube.com/embed/5eOMqYD8FUc",
   "imagePath": "game_of_life",
   "description": [
-    "todo"
+    "Conway's Game of Life is a a game where a cell can be spawned or killed based on the number of neighbors that it ",
+    "has. If the number of neighbors is less than 2 or greater than 3, the cell will die. If the number of neighbors ",
+    "is 2 or 3, the cell will stay alive. If a dead cell has exactly 3 neighbors, it will come to life."
   ],
   "motivation": [
-    "todo"
+    "The motivation for creating this project was to improve my optimization skills. By gaining a deeper insight of ",
+    "lower level concepts and multi-threading using both the GPU and CPU, I was able to optimize the project to ",
+    "achieve very high frames per second in my application."
   ],
   "technicalDetails": [
-    "todo"
+    "There are 3 versions of this application, one created using TBB (Intel's Thread Building Blocks library) and ",
+    "C++, another created with Cuda (Nvidia's library for multi-threaded programming on the GPU) and C, and finally a ",
+    "version using OpenCL (An open source library which allows computation to be done on both the CPU and GPU ",
+    "simultaneously."
   ]
 }]
