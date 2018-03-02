@@ -15,7 +15,7 @@
   "githubLink": "https://github.com/ml-davis/persian_tutor_2",
   "webLink": "http://persiantutor.io",
   "videoLink": null,
-  "imagePath": null,
+  "imagePath": "persian_tutor_2",
   "description": [
     "This is a web application intended to help learn Farsi. Users can browse phrases, look up phrases in search ",
     "and be quizzed on phrases. If the user does not know the answer to a question, he can flag it as an unknown ",
