@@ -1,13 +1,13 @@
-@media (max-width: 628px) {
+@media (max-width: 695px) {
   .images {
     margin-top: 40px;
   }
 }
 
 img {
-  --dim: calc(17em);
+  --dim: calc(19em);
   width: var(--dim);
-  height: calc(var(--dim) - 4em);
+  height: calc(var(--dim) - 7em);
   margin: 5px;
 }
 

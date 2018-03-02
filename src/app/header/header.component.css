@@ -70,6 +70,11 @@ a {
     padding: 1px;
   }
 
+  a {
+    font-size: 0.8em;
+    padding: 0;
+  }
+
   mat-card {
     padding: 1% 8%;
   }

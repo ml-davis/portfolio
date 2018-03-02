@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class WorkHistoryComponent implements OnInit {
 
-  constructor() { }
+  constructor() {}
 
   ngOnInit() {
   }
