@@ -6,7 +6,7 @@
 
   <div class="images" *ngIf="project.imagePath">
     <img mat-card-image *ngFor="let i of [0, 1, 2]"
-         src="../../assets/project_images/{{project.imagePath}}/img{{i}}.png"
+         src="/src/assets/project_images/{{project.imagePath}}/img{{i}}.png"
          alt="{{project.title}} Image {{i}}">
   </div>
 
