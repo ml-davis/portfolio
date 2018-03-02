@@ -1,4 +1,4 @@
-<mat-card *ngFor="let project of projects">
+<mat-card class="card" *ngFor="let project of projects">
   <mat-card-title>{{project.title}}</mat-card-title>
   <mat-card-subtitle>{{project.stack.join(', ')}}</mat-card-subtitle>
   <mat-card-content>{{project.description.join('')}}</mat-card-content>
