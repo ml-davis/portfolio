@@ -67,9 +67,10 @@
   ],
   "technicalDetails": [
     "This project was built at a very low level. All of the wiring and programming was done by ourselves. A much more ",
-    "detailed description of the technical details that went into the project can be found in the pdf that we created ",
-    "for the project."
-  ]
+    "detailed description of the technical details that went into the project can be found in the project report that ",
+    "we created for the project."
+  ],
+  "report": "/portfolio/assets/self_driving_car_report.pdf"
 }, {
   "id": 2,
   "title": "Nanogram",
