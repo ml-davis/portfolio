@@ -9,4 +9,5 @@ interface Project {
   description: string[];
   motivation: string[];
   technicalDetails: string[];
+  report: string;
 }

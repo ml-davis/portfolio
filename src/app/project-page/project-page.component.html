@@ -40,6 +40,11 @@
     <mat-card-content>{{project.technicalDetails.join('')}}</mat-card-content>
   </div>
 
+  <div *ngIf="project.report">
+    <a href="{{project.report}}">Project Report</a>
+    <br><br>
+  </div>
+
   <div *ngIf="project.videoLink">
     <br>
     <iframe [src]="project.videoLink | safe"
