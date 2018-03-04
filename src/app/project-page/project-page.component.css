@@ -5,14 +5,12 @@
 }
 
 img {
-  --dim: calc(19em);
-  width: var(--dim);
-  height: calc(var(--dim) - 7em);
-  margin: 5px;
+  width: 19em;
+  margin: 0.5em;
 }
 
 a {
-  color: dodgerblue;
+  color: #51b4ff;
   text-decoration: none;
 }
 

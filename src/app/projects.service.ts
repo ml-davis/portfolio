@@ -7,6 +7,6 @@ export class ProjectsService {
   constructor(private http: HttpClient) {}
 
   getProjects(): Promise<Project[]> {
-    return this.http.get<Project[]>('http://localhost:4200/assets/projects.json').toPromise();
+    return this.http.get<Project[]>('https://ml-davis.github.io/portfolio/assets/projects.json').toPromise();
   }
 }

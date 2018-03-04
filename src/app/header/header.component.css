@@ -5,13 +5,11 @@ header {
 }
 
 #profilePicture {
-  flex-basis: 15%;
-  max-height: 100%;
+  height: inherit;
 }
 
 #contactInformation {
-  flex-basis: 85%;
-  max-height: 100%;
+  flex-basis: 100%;
 }
 
 h1, h3 {
@@ -19,7 +17,7 @@ h1, h3 {
 }
 
 a {
-  color: dodgerblue;
+  color: #51b4ff;
   text-decoration: none;
 }
 
@@ -32,7 +30,7 @@ a {
 
   h3 {
     font-size: 1.0em;
-    padding: 1px;
+    padding: 0;
   }
 
   #contactInformation {
@@ -61,8 +59,8 @@ a {
 /* For small screens only */
 @media (max-width: 800px) {
   h1 {
-    font-size: 1.1em;
-    padding: 0;
+    font-size: 1.3em;
+    padding: 2px;
   }
 
   h3 {
@@ -72,7 +70,7 @@ a {
 
   a {
     font-size: 0.8em;
-    padding: 0;
+    padding: 1px;
   }
 
   mat-card {
@@ -81,8 +79,8 @@ a {
 }
 
 /* For very small screens only */
-@media (max-width: 475px) {
+@media (max-width: 479px) {
   mat-card {
-    padding: 1% 2%;
+    padding: 1% 3px;
   }
 }
