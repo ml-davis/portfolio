@@ -1,5 +1,40 @@
 [{
   "id": 0,
+  "title": "P-Fin",
+  "stack": [
+    "Java",
+    "Spring Boot",
+    "Hibernate",
+    "MySQL",
+    "Angular",
+    "Typescript"
+  ],
+  "githubLink": "https://github.com/ml-davis/pfin",
+  "videoLink": null,
+  "imagePath": "pfin",
+  "description": [
+    "A personal finance manager. This is my most recent app and the one I am currently working on. It is still in ",
+    "its early stages, however, I intend to expand on it until it is a full blown production capable application. ",
+    "Currently, I have implemented a very basic authentication server as well as a template for new features to be ",
+    "completed."
+  ],
+  "motivation": [
+    "After graduation, I began my career. I began earning money and wanted a great way to manage my spending. That ",
+    "was the motivation behind this app. Other tools that I found online and Excel seemed to fall short of what I ",
+    "wanted. I seized the opportunity to begin creating my own. This provides me with great practice and allows me to ",
+    "further expand my knowledge by familiarizing myself with new tools, frameworks, and technologies."
+  ],
+  "technicalDetails": [
+    "This project is created using two different programs. A Java Spring server, which listens for requests over a ",
+    "Rest API and an Angular front-end. Using this extremely loosely-coupled approach allows me to easily swap out ",
+    "front and backend implementations. For example, an Android app could make requests to the same Rest API, needing ",
+    "only a new GUI with out needing to make any modifications to my back-end implementation. One of my personal ",
+    "goals when setting out to create this app was improving my knowledge of security. This is why I have neglected ",
+    "to import a library, but to roll my own. So that I could improve my fundamentals by trying to bring down my own ",
+    "server and patching any security holes I may have left behind."
+  ]
+}, {
+  "id": 1,
   "title": "Persian Tutor 2",
   "stack": [
     "Angular",
@@ -13,7 +48,7 @@
     "S3"
   ],
   "githubLink": "https://github.com/ml-davis/persian_tutor_2",
-  "webLink": "http://persiantutor.io",
+  "webLink": "down",
   "videoLink": null,
   "imagePath": "persian_tutor_2",
   "description": [
@@ -40,7 +75,7 @@
     "The PostgreSQL database is also decoupled and is stored in an AWS Relational Database Service."
   ]
 }, {
-  "id": 1,
+  "id": 2,
   "title": "Self Driving Car",
   "stack": [
     "C",
@@ -72,7 +107,7 @@
   ],
   "report": "/portfolio/assets/self_driving_car_report.pdf"
 }, {
-  "id": 2,
+  "id": 3,
   "title": "Nanogram",
   "stack": [
     "Java",
@@ -97,7 +132,7 @@
     "which is used to display the graphical user interface to the user."
   ]
 }, {
-  "id": 3,
+  "id": 4,
   "title": "Search Engine",
   "stack": [
     "Java",
@@ -122,7 +157,7 @@
     "documents and gain useful information fast."
   ]
 }, {
-  "id": 4,
+  "id": 5,
   "title": "Online Real Estate",
   "stack": [
     "PHP",
@@ -147,7 +182,7 @@
     "It also uses Javascript, HTML5, and CSS3 to render a nice responsive front-end."
   ]
 }, {
-  "id": 5,
+  "id": 6,
   "title": "Persian Tutor 1",
   "stack": [
     "Java",
@@ -169,7 +204,7 @@
   ],
   "technicalDetails": null
 }, {
-  "id": 6,
+  "id": 7,
   "title": "Game of Life",
   "stack": [
     "C++",
