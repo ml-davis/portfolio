@@ -16,7 +16,13 @@
     <mat-card-content><a href="{{project.githubLink}}">{{project.githubLink}}</a></mat-card-content>
   </div>
 
-  <div *ngIf="project.webLink">
+  <div *ngIf="project.webLink == 'down'">
+    <br>
+    <mat-card-subtitle>URL:</mat-card-subtitle>
+    <mat-card-content>Website is currently down to save on expenses</mat-card-content>
+  </div>
+
+  <div *ngIf="project.webLink && project.webLink != 'down'">
     <br>
     <mat-card-subtitle>URL:</mat-card-subtitle>
     <mat-card-content><a href="{{project.webLink}}">{{project.webLink}}</a></mat-card-content>
@@ -41,8 +47,8 @@
   </div>
 
   <div *ngIf="project.report">
-    <p>{{project.report}}</p>
-    <a href="{{project.report}}">Project Report</a>
+    <br>
+    <h4>Please view my  <a href="{{project.report}}">Project Report</a> to gain a better understanding.</h4>
     <br><br>
   </div>
 

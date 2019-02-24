@@ -1,19 +1,92 @@
 <mat-card class="card">
-  <mat-card-title>Morgan Stanley</mat-card-title>
+  <mat-card-title>Morgan Stanley <i>- C++ Software Developer</i></mat-card-title>
   <mat-card-subtitle>2017 June - Present</mat-card-subtitle>
   <mat-card-content>
+
+    <h3>Corvil Data</h3>
     <ul>
       <li>
-        Wrote C++ to contribute to a high performance, low latency pricing engine for foreign
-        exchange markets.
+        Wrote processes in Python to collect network data and ran analytics in the firm to determine end-to-end
+        latency across multiple processes to track down bottlenecks.
       </li>
       <li>
-        Developed Python scripts to automate tasks and monitor performance of different
-        processes throughout the firm.
+        Dealt with big data, in order to keep up with data flow we needed to highly parallelize and streamline our
+        program. This included a parallel pipeline and threads for each channel and region. As well as a highly
+        efficient custom compression/decompression algorithm written in house by us in C++ which kept the desired
+        subset of data we wanted to analyze and compressed the data into a binary format which would need to be
+        sent across our internal networks.
       </li>
       <li>
-        Discovered solutions in several areas to reduce latency and optimize programs.
+        Collected information about several processes across the firm and all of the hosts and ports that they
+        were listening and sending data from. Then stored this information in a SQLite database which was used
+        by several programs across the firm.
+      </li>
+      <li>
+        Collected not only fully formed messages but also TCP packets which gave us a very detailed view of the data
+        flow and things such as TCP window sizes to allow us to track down slow consumers and notify client's whose
+        machines were unable to keep up with our data.
+      </li>
+      <li>
+        Dealt with Multicast, Infiniband and Soap protocols
       </li>
     </ul>
+
+    <h3>Client Gateway</h3>
+    <ul>
+      <li>
+        Developed a Rest API with Python Flask.
+      </li>
+      <li>
+        Deployed API to 15 servers spread across New York, London, and Tokyo listening 24/7 for requests.
+      </li>
+      <li>
+        Used Kerberos authentication combined with JSON web tokens and stringent audit logs for security.
+      </li>
+      <li>
+        Developed a client script to regularly make requests to servers in parallel to collect data about client
+        interactions.
+      </li>
+      <li>
+        Capable of sending very large quantities of data over network and handling high volume of requests.
+      </li>
+      <li>
+        Able to stream large files in small chunks using on-the-fly compression.
+      </li>
+    </ul>
+
+    <h3>Back Testing</h3>
+    <ul>
+      <li>
+        Collected and aggregated historical data from KDB databases, processed it into a format understood by our
+        processes, and used it to replay into our pricing engine.
+      </li>
+      <li>
+        Ran across a powerset of different input and pricing engine configurations to compare performance.
+      </li>
+      <li>
+        Developed a tool to abstract a convoluted process of getting KDB data off of several different hosts into an
+        intuitive, easy-to-use API developed with Paramiko for SSH-tunneling which was used by many teams across
+        multiple projects.
+      </li>
+      <li>
+        Since historical data only tracks deltas for performance reasons, we must iterate backwards through time in
+        data until we can achieve a fully populated state-of-world for any given time interval.
+       </li>
+      <li>
+        Aggregate and merge data using a custom linear merge sort algorithm.
+      </li>
+    </ul>
+
+    <h3>Pricing Engine</h3>
+    <ul>
+      <li>
+        Wrote C++ to contribute to a high performance and low latency pricing engine for foreign exchange markets.
+      </li>
+      <li>
+        Gained experience working on very large code base shared among multiple talented and experienced senior
+        developers.
+      </li>
+    </ul>
+
   </mat-card-content>
 </mat-card>

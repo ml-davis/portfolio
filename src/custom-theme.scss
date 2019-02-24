@@ -9,7 +9,7 @@
 // Define the palettes for your theme using the Material Design palettes available in palette.scss
 // (imported above). For each palette, you can optionally specify a default, lighter, and darker
 // hue. Available color palettes: https://www.google.com/design/spec/style/color.html
-$custom-primary: mat-palette($mat-green);
+$custom-primary: mat-palette($mat-blue);
 $custom-accent:  mat-palette($mat-light-blue, A200, A100, A400);
 
 // The warn palette is optional (defaults to red).
@@ -24,7 +24,7 @@ $custom-theme: mat-dark-theme($custom-primary, $custom-accent, $custom-warn);
 @include angular-material-theme($custom-theme);
 
 body {
-   background: linear-gradient(#1e1e1e 0%, #414141 50%, #232323 100%);
+  background: linear-gradient(#1e1e1e 0%, #414141 50%, #232323 100%);
   height: 100vh;
 }
 
@@ -37,12 +37,17 @@ body {
   background-color: #4b4b4b;
 }
 
+.card p {
+  padding: 0 2%;
+  font-size: 110%;
+}
+
 img {
   color: white;
 }
 
 a {
-  color: #35d100;
+  color: deepskyblue;
   text-decoration: none;
 }
 
